@@ -1,0 +1,95 @@
+body {
+    background-color: #D7D7D7;
+    font-family: Segoe, Verdana;
+}
+
+#container {
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+}
+
+#menulinks {
+    width: 200px;
+    height: 600px;
+    float: left;
+    background-image: url("images/menu_links.png");
+}
+
+#midden {
+    width: 600px;
+    height: 600px;
+    float: left;
+    background-color: #999;
+}
+
+#menurechts {
+    width: 200px;
+    height: 600px;
+    float: left;
+    background-image: url("images/menu_rechts.png");
+}
+
+#sluitbalk {
+    width: 1000px;
+    height: 30px;
+    background-color: #56b1f6;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+}
+
+#menulinks img {
+    float: left;
+    border: solid white 1px;
+    margin: 3px 0 0 3px;
+}
+
+#header {
+    width: 600px;
+    height: 120px;
+    float: left;
+    background-image: url("images/header2.png");
+}
+
+#header h1 {
+    color: #56b1f6;
+    text-align: center;
+}
+
+#midden p {
+    margin: 5px;
+}
+
+#midden table, tr, td, th {
+    border: solid white 2px;
+    border-collapse: collapse;
+}
+
+#midden table {
+    margin: 5px;
+    width: 590px;
+}
+
+#menurechts ul {
+    list-style-type: none;
+    margin: 250px 25px 0px 25px;
+    padding: 0;
+}
+
+#menurechts li {
+    margin-bottom: 10px;
+    width: 150px;
+    background-color: #033255;
+    text-align: center;
+    border: solid white 2px;
+}
+
+#menurechts a {
+    color: white;
+    text-decoration: none;
+}
+
+#menurechts li:hover {
+    background-color: #56b1f6;
+}
